@@ -1,4 +1,4 @@
-﻿namespace CarApp.Core.Domain
+﻿namespace Car_App.Core.Domain
 {
     public class Car
     {

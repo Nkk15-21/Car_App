@@ -1,4 +1,4 @@
-﻿namespace CarApp.Core.Dto
+﻿namespace Car_App.Core.Dto
 {
     public class CarDto
     {

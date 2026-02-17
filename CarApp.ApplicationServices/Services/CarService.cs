@@ -1,16 +1,16 @@
-﻿using CarApp.Core.Domain;
-using CarApp.Core.Dto;
-using CarApp.Core.ServiceInterface;
-using CarApp.Data;
+﻿using Car_App.Core.Domain;
+using Car_App.Core.Dto;
+using Car_App.Core.ServiceInterface;
+using Car_App.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace CarApp.ApplicationServices.Services
+namespace Car_App.ApplicationServices.Services
 {
     public class CarService : ICarService
     {
-        private readonly CarAppDbContext _context;
+        private readonly Car_AppDbContext _context;
 
-        public CarService(CarAppDbContext context)
+        public CarService(Car_AppDbContext context)
         {
             _context = context;
         }

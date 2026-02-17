@@ -1,6 +1,6 @@
-﻿using CarApp.Core.Dto;
+﻿using Car_App.Core.Dto;
 
-namespace CarApp.Core.ServiceInterface
+namespace Car_App.Core.ServiceInterface
 {
     public interface ICarService
     {
