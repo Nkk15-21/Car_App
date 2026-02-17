@@ -1,0 +1,33 @@
+﻿@model Car_App.Core.Dto.CarDto
+
+<h1>Create car</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Brand"></label>
+        <input asp-for="Brand" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Model"></label>
+        <input asp-for="Model" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Year"></label>
+        <input asp-for="Year" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Color"></label>
+        <input asp-for="Color" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Mileage"></label>
+        <input asp-for="Mileage" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>
